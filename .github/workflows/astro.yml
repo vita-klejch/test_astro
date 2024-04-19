@@ -30,6 +30,8 @@ env:
 
 jobs:
   build:
+    env:
+      TEST: some value from astro.yml
     name: Build
     runs-on: ubuntu-latest
     steps:
